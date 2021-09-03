@@ -1,0 +1,128 @@
+#box{
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    margin: 40px auto;
+    background-color: whitesmoke;
+    opacity: 0.79;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%
+}
+#innerdata{
+    width: 80%;
+    height: 50%;
+    border: 1px solid orange;
+    margin: 10px auto;
+    background-color: white;
+    /* background-color: #f8edeb; */
+    border-radius: 20px;
+}
+#innerdata h3{
+    font-size:1.6rem;
+    text-align: center;
+    color: #03045e;
+    font-weight: 700;
+    /* font-weight:500; */
+}
+button{
+    /* text-align: center; */
+    margin: 10px 40px;
+    width: 300px;
+}
+form input{
+    margin: 1px 16px;
+    width: 360px;
+    background-color: black;
+    /* font-size: larger; */
+    /* color: green; */
+} 
+section #h2{
+    color: #03045e;
+    /* font-family: 'Squada One', cursive; */
+    font-family: 'PT Serif Caption', serif;
+    font-size: 2.4rem;
+    text-shadow: 3px 3px grey;
+    margin: 20px;
+    
+}
+section #h1{
+    color: #03045e;
+    font-weight: 600;
+    font-size: 1.2rem;
+    
+}
+#innerdata #h3,#date{
+    color: #03045e;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#innerdata #h0{
+    color: #03045e;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#innerdata #h4{
+    color: #03045e;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+}
+h1{
+    margin: 15px;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    background-image: url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1113&q=80');
+}
+#text{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #03045e;
+}
+#input1:focus{
+    background-color: black;
+}
+#input1{
+    background-color:greenyellow
+}
+.btn:hover{
+    background-color:#74c69d;
+}
+@media screen and (max-width:400px) {
+    #box{
+        height: 150px;
+        width: 200px;
+        border-radius: 5%;
+    }
+    #box h1{
+        font-size: 1.2rem;
+    }
+    #innerdata{
+        margin-top: 30px;
+        height: 280px;
+        width: 200px;
+    }
+    .btn{
+        font-size: small;
+        width: 100px;
+        margin-bottom: 2px;
+    }
+    html{
+        height: 100%;
+        width: 100%;
+    }
+    #innerdata #h1{
+        font-size: 1rem;
+    }
+   
+}
